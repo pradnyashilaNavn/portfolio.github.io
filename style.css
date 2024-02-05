@@ -1,0 +1,268 @@
+/* start main css */
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Space Mono', monospace;
+}
+body{
+    /* background-color: #491A45!important; */
+    /* background-color: #5d3a83!important; */
+    background-color: #392467!important;
+    /* background-color: #A367B1; */
+    color:white!important;
+}
+h3{
+  text-align: center;
+}
+/* end main css */
+/* start class css */
+.container{
+  margin-top: 40px;
+}
+.contactinfo{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.contact a{
+    color: white;
+    padding: 7 9px;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 60px;  */
+}
+.photo {
+  width: 200px; 
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.circular-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  border: 3px solid #fff800;
+  border-radius: 50%;
+}
+.skills img{
+  padding:4px;
+  width: 10%
+}
+/* end class css */
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #462a63 0%,
+    #8237d1 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 40px;
+  font-weight: 900;
+
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+/* button */
+.bn31 {
+  background-image: linear-gradient(to right, #ff1361 0%, #fff800 100%);
+  border-radius: 40px;
+  box-sizing: border-box;
+  color: #00a84f;
+  display: block;
+  height: 50px;
+  font-size: 1.2em;
+  padding: 4px;
+  position: relative;
+  text-decoration: none;
+  width: 12em;
+  z-index: 2;
+  float: inline-end;
+}
+.bn31:hover {
+  color: #fff;
+}
+.bn31 .bn31span {
+  align-items: center;
+  background: #0e0e10;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  transition: background 0.5s ease;
+  width: 100%;
+}
+.bn31:hover .bn31span {
+  background: transparent;
+}
+/* button */
+
+/* ------- */
+/* .text-whtie {
+  color: #fff !important;
+} */
+
+.bold {
+  font-weight: bolder;
+}
+
+.por {
+  position: relative;
+}
+
+.review-box .quote {
+  position: absolute;
+  width: 40px;
+  right: 10px;
+  bottom: 10px;
+}
+.review-box {
+  border-radius: 3px;
+  background: #fff;
+  box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+.review-box h5 {
+  margin: 0;
+}
+
+.review-box p {
+  margin-bottom: 0;
+  margin-top: 10px;
+  color: #000;
+}
+
+.user-post {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 !important;
+}
+
+.swiper-testimonial {
+  padding: 100px 20px;
+  padding-top: 30px;
+}
+
+.half-color-box {
+  background: var(--gradient);
+  height: 300px;
+  margin-bottom: 140px;
+}
+.center-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+}
+.btn-center {
+  display: inline-block;
+}
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #fff;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #ff1361;
+  color: white;
+  transform: rotateY(180deg);
+}
+.recom{
+  padding: 5px;
+  margin: 15px;
+  text-align: left;
+}
+.recomname{
+  padding: 5px;
+  margin: 15px;
+  text-align: right;
+}
+/* animation */
+.textchange{
+  overflow: hidden;
+  width: 246px;
+}
+.textchange .text{
+  position: relative;
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff800;
+}
+.textchange .text.first-text{
+  color: #fff;
+}
+.text.sec-text:before{
+  content: "";
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+  background-color: #392467;
+  border-left: 2px solid #fff800;
+  animation: animate 4s steps(12)infinite;
+}
+@keyframes animate{
+  40%, 60%{
+    left: calc(100% + 4px);
+  }
+  100%{
+    left: 0%;
+  }
+}
+.flip-card{
+  margin-bottom: 10px;
+}
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  background: #fff800!important;
+}
+
