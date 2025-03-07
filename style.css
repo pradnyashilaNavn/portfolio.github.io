@@ -1,4 +1,13 @@
 /* start main css */
+.prata-regular {
+  font-family: "Prata", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
 *{
     margin: 0;
     padding: 0;
