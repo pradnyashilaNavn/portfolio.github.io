@@ -1,0 +1,26 @@
+🔹 Best Font Choices for a Portfolio
+1️⃣ Modern & Minimal (Best for Clean, Professional Look)
+✔ Inter – Clean, modern, and widely used in UI/UX design.
+✔ Poppins – Stylish, slightly rounded, and great for headings.
+✔ Montserrat – Bold and geometric, good for emphasis.
+
+2️⃣ Elegant & Premium (Best for Personal Branding)
+✔ Playfair Display – A serif font with a classy, editorial feel.
+✔ Merriweather – Good for readability with a sophisticated touch.
+
+3️⃣ Tech & Developer-Friendly (Best for a Modern Tech Portfolio)
+✔ Fira Sans – Sleek and works well for coding/design portfolios.
+✔ Nunito – Smooth and friendly, balancing professionalism.
+✔ Roboto – Clean, widely used, and easy to read.
+
+🔹 Best Combination (For a Polished Look)
+Heading: Montserrat / Poppins / Playfair Display
+Body Text: Inter / Roboto / Nunito
+Would you like recommendations for specific sections (e.g., navbar, headings, body text)? 😊
+
+
+
+
+
+
+
